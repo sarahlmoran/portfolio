@@ -5,5 +5,47 @@
     </head>
     <body>
         <h1>Contact Details</h1>
+        <p>If you would like to contact me, please complete the below form:</p>
+        <form>
+            <fieldset>
+                <legend>Your Contact Details</legend>
+                <label for="fullname">Full Name</label>
+                <input id="fullname"type="text">
+                <br>
+                <label for="email">Email address</label>
+                <input id="email"type="email">
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>Reason for contact</legend>
+                <input type="radio" name="option" id="question"checked="checked">
+                <label for="question">Question</label>
+                <br>
+                <input type="radio" name="option" id="comment">
+                <label for="comment">Comment</label>
+                <br>
+                <input type="radio" name="option" id="info">
+                <label for="info">Further Information</label>
+                <br>
+                <input type="radio" name="option" id="other">
+                <label for="other">Reason not listed</label>
+                <br>
+                <label for="other">Reason not listed? Please type your reason for contact: </label>
+                <textarea id="other"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Reason for contact</legend>
+                <select name="option">
+                    <option value="question" selected>Question</option>
+                    <option value="comment" selected>Comment</option>
+                    <option value="info" selected>Further Information</option>
+                    <option value="other" selected>Reason not listed</option>
+                    <br>
+                    <label for="other">Reason not listed? Please type your reason for contact: </label>
+                    <textarea id="other"></textarea>
+                </select>
+            </fieldset>
+            <button type="submit">Submit</button>
+        </form>
     </body>
 </html>
