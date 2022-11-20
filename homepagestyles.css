@@ -1,10 +1,15 @@
 /*Global Resets*/
-*{
+body{
     margin:0;
     padding:0;
     font-family: fantasy;
     background-color: #38A3A5;
     color:#22577a;
+}
+
+/* this is to show the scaffolding of the CSS*/
+*{
+    border: 2px solid red;
 }
 
 
