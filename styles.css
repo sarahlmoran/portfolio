@@ -1,0 +1,148 @@
+*{
+    font-family: fantasy;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: bottom;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-weight: 5000;
+    text-transform: capitalize;
+    position:fixed;
+    left:50%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    font-size:50px;
+}
+
+h1,ol,figcaption{
+    color:rgba(255, 0, 0,0.5);
+}
+p {
+    color:gold;
+    font-style: italic;
+}
+p:hover{
+    color:red;
+}
+.highlight {
+    background-color: goldenrod;
+}
+#intro {
+    font-size: 20px;
+}
+
+#about-me h3 ~ p {
+    color:aquamarine;
+}
+.profile-pic ~ p {
+    font-size: 20px;
+}
+#box:checked {
+    outline: 3px solid green;
+}
+#box:checked + label {
+    color: green;
+  }
+ #socials:hover{
+    color:pink;
+    
+  }
+
+  #dis:disabled{
+    color:darkorchid
+  }
+ 
+#visit:visited {
+    color:chartreuse
+}
+#visit:active{
+    font-size:40px;
+}
+#visit2:visited {
+    color:red
+}
+#visit2:active{
+    font-size:40px;
+}
+p::first-letter{
+    color:red;
+}
+li::marker{
+    color:blue;
+}
+section::first-line{
+    color:violet;
+}
+/*a::after{
+    content:"test";
+}*/
+a::before{
+    content:"test";
+}
+p {
+    position: relative;
+ }
+ p::after {
+    content: "";
+    background-color: palegoldenrod;
+    height: 20px;
+    width: 100%;
+    position: absolute;
+    left: 20px;
+    z-index: -1;
+ }
+ a[href="https://www.instagram.com"]{
+    background-color: pink;
+ }
+ a[href="https://www.facebook.com"]{
+    background-color: skyblue;
+ }
+
+ a[href]{
+    color:black;
+ }
+ .div-element {
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: red;
+ }
+ .span-element {
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: blue;
+    display: none;
+ }
+ h3 {
+    position:sticky;
+ }
+
+ .parent {
+    /*display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px 20px;
+    place-items:center;*/
+    display: grid;
+    grid-template-columns: minmax(500px, 1fr);
+    grid-template-areas:
+    "header header"
+    "sidebar main"
+    "sidebar main"
+    "footer footer";
+    
+ }
+    
+.child {
+
+    justify-self: center;
+    align-self: start;
+}

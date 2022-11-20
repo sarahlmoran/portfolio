@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 <title> Sarah Moran </title>
 </head>
-<body>  
+<body> 
+   <!-- <style>
+        h1 {color:red;
+        }
+    </style> -->
     <main>
-    <header>
-    <h1> Sarah Moran</h1> <section id="sarah-moran"></section>
+    <header id="intro">
+    <h1>Sarah Moran</h1> <section id="sarah-moran"></section>
     <h2>Coding Newbie!</h2>
     <br /> 
    <img src="./images/Sarah-Prince.jpg"alt="Photo of Sarah Moran"> 
@@ -17,9 +22,11 @@
     </nav>
 </header>
 <section>
+    <div>
     <h3>About Me</h3>
     <p>I'm Sarah! I love exclamation marks!</p>
     <p>I got into coding very recently! I did the Manchester Codes intro session then tried an Udemy course where I created a  mini project. I really enjoyed it so took the plunge and applied for bootcamp! </p>
+</div>
 </section>
 <section>
     <h4> Qualities</h4>
@@ -48,11 +55,7 @@
 </li>
     </ol>
 </section>
-<figure>
-    <img src="./images/Calton-Hill.jpg"alt="Photograph of view from Calton Hill in Edinburgh">
-<br />
-<figcaption>
-    City breaking in Edinburgh
+
 </figcaption>
 </figure>
 <section>
@@ -71,6 +74,48 @@
 <nav>
     <a href="#sarah-moran">Back to top</a>
 </nav>
+<div id="about-me">
+    <h3>About Me</h3>
+    <img class="profile-pic" src="https://picsum.photos/200/300" alt="a picture of me" />
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dui quam, efficitur sit amet tortor.</p>
+    <p>Praesent at neque ut nibh porttitor consectetur vel at nulla. Phasellus id dignissim ipsum. Donec.</p>
+    <div>
+        <p>Third paragraph</p>
+    </div>
+
+</div>
+<div id="socials">
+    <h3>My Socials</h3>
+    /* These links are just a demo, so i've left the href blank. */
+    <p>Follow me on <a id="visit" href="">Twitter</a>!</p>
+    <p>Follow me on <a id="visit2" href="">Instagram</a>!</p>
+    /* The below are form elements, we will get to those later on so don't worry
+    about these just yet, we just need them for demo purposes */
+    <input type="checkbox" id="box" name="test-checkbox" checked />
+    <label for="test-checkbox" id="box">Check this box for some reason</label>
+    /*The button below is just a demo, so it doesn't do anything, we will add the
+    disabled attribute though, more on that below...*/
+    <button id="dis"disabled>You can't press this...</button>
+  </div>
+  <div>
+    <a href="https://www.facebook.com" data-anchor="social">Facebook</a>
+    <a href="https://www.instagram.com" data-anchor="social">Instagram</a>
+    <a href="#top" data-anchor="innerLink">
+</div>
+<div class="div-element">one</div>
+<div class="div-element">two</div>
+<div class="div-element">three</div>
+<span class="span-element">one</span>
+<span class="span-element">two</span>
+<span class="span-element">three</span>
+
+<div class="parent">
+    <div class="child">A</div>
+    <div class="child">B</div>
+    <div class="child">C</div>
+    <div class="child">D</div>
+</div>
 </body>
     </html>
+
     
