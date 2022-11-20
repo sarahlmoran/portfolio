@@ -12,4 +12,24 @@ body{
     border: 2px solid red;
 }
 
+*{
+    box-sizing: border-box;
+}
 
+/* -- Layout 1 with grid -- */
+/* grid container */
+.layout--1{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 100px 1fr 200%;
+    grid-template-rows: repeat(7,fr);
+    grid-template-areas:
+    "logo header nav"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "footer footer footer"
+    ;
+}
