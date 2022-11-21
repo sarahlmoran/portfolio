@@ -51,7 +51,9 @@ body{
     grid-area: nav;
     background-color: #A1E2c6;
     text-decoration: none;
-    text-align: right;
+    text-align: justify;
+    font-size: 1.1rem;
+    word-spacing: 1rem;
 }
 .title{
     grid-area: title;
