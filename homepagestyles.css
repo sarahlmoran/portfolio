@@ -19,7 +19,7 @@ body{
 /* -- Layout 1 with grid -- */
 /* grid container */
 .layout--1{
-    padding: 10px;
+    padding: 0px;
     display: grid;
     grid-template-columns: 10% 1fr 30%;
     grid-template-rows: repeat(7,fr);
