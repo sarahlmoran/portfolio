@@ -8,7 +8,7 @@ body{
 }
 
 /* this is to show the scaffolding of the CSS*/
-*{
+•{
     border: 2px solid red;
 }
 
@@ -50,6 +50,8 @@ body{
 .nav{
     grid-area: nav;
     background-color: #A1E2c6;
+    text-decoration: none;
+    text-align: right;
 }
 .title{
     grid-area: title;
@@ -80,4 +82,7 @@ body{
 .footer{
     grid-area: footer;
     text-align: center;
+}
+a{
+    text-decoration: none;
 }
