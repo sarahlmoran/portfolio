@@ -8,7 +8,7 @@ body{
 }
 
 /* this is to show the scaffolding of the CSS*/
-•{
+*{
     border: 2px solid red;
 }
 
@@ -21,40 +21,34 @@ body{
 .layout--1{
     padding: 0px;
     display: grid;
-    grid-template-columns: 10% 1fr 30%;
-    grid-template-rows: repeat(7,fr);
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8,fr);
     grid-template-areas:
-    "logo header nav"
-    "title title title"
-    "aboutme aboutme aboutme"
-    "photo photo photo"
-    "project project project"
-    "contact contact contact"
-    "footer footer footer";
+    "header"
+    "social"
+    "title"
+    "aboutme"
+    "photo"
+    "project"
+    "contact"
+    "nav";
 
     min-height:100vh;
 }
 
 /*grid items*/
 
-.logo{
-    grid-area:logo;
-    background-color:#A1E2c6;
-}
-
 .header{
     grid-area: header;
     background-color:#A1E2c6;
 }
 
-.nav{
-    grid-area: nav;
-    background-color: #A1E2c6;
-    text-decoration: none;
-    text-align: justify;
+.social{
+    grid-area:social;
+    background-color:#A1E2c6;
     font-size: 1.1rem;
-    word-spacing: 1rem;
 }
+
 .title{
     grid-area: title;
     text-align: center;
@@ -80,6 +74,14 @@ body{
     text-align: center;
 }
 
+.nav{
+    grid-area: nav;
+    background-color: #A1E2c6;
+    text-decoration: none;
+    text-align: justify;
+    font-size: 1.1rem;
+    word-spacing: 1rem;
+}
 
 .footer{
     grid-area: footer;
@@ -88,3 +90,4 @@ body{
 a{
     text-decoration: none;
 }
+
