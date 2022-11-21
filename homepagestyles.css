@@ -49,8 +49,7 @@ body{
 
 .nav{
     grid-area: nav;
-    background-color: #22577a;
-    color: #A1E2c6;
+    background-color: #A1E2c6;
 }
 .title{
     grid-area: title;
