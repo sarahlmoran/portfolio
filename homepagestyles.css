@@ -12,9 +12,6 @@ body{
     border: 2px solid red;
 }
 
-/**{
-    box-sizing: border-box;
-}*/
 
 /* -- Layout 1 with grid -- */
 /* grid container */
