@@ -25,13 +25,13 @@ body{
     grid-template-rows: repeat(8,fr);
     grid-template-areas:
     "header"
-    "social"
+    "nav"
     "title"
     "aboutme"
     "photo"
     "project"
     "contact"
-    "nav";
+    "social";
 
     min-height:100vh;
 }
@@ -41,12 +41,17 @@ body{
 .header{
     grid-area: header;
     background-color:#A1E2c6;
+    text-align: center;
+    
 }
 
-.social{
-    grid-area:social;
-    background-color:#A1E2c6;
+.nav{
+    grid-area: nav;
+    background-color: #A1E2c6;
+    text-decoration: none;
+    text-align: justify;
     font-size: 1.1rem;
+    word-spacing: 1rem;
 }
 
 .title{
@@ -74,13 +79,10 @@ body{
     text-align: center;
 }
 
-.nav{
-    grid-area: nav;
-    background-color: #A1E2c6;
-    text-decoration: none;
-    text-align: justify;
+.social{
+    grid-area:social;
+    background-color:#A1E2c6;
     font-size: 1.1rem;
-    word-spacing: 1rem;
 }
 
 .footer{
