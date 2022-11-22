@@ -19,12 +19,13 @@ body{
     padding: 0px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(8,fr);
+    grid-template-rows: repeat(9,fr);
     grid-template-areas:
     "header"
     "nav"
     "title"
     "aboutme"
+    "qualities"
     "photo"
     "project"
     "contact"
@@ -37,7 +38,7 @@ body{
 
 .header{
     grid-area: header;
-    background-color:#A1E2c6;
+    background-color:white;
     text-align: center;
     
 }
@@ -59,6 +60,14 @@ body{
 .aboutme{
     grid-area: aboutme;
     text-align: center;
+    background-color: white;
+}
+
+.qualities {
+    grid-area:qualities;
+    text-align: center;
+    background-color: #A1E2c6;
+
 }
 
 .photo{
@@ -87,6 +96,8 @@ body{
     grid-area: footer;
     text-align: center;
 }
+
+/*Used to remove all undelines on links-may have to add further specificity at a later stage*/
 a{
     text-decoration: none;
 }
