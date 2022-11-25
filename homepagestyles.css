@@ -3,7 +3,7 @@ body{
     margin:0;
     padding:0;
     font-family: fantasy;
-    background-color: #38A3A5;
+    background-color: #22577a;
     color:#22577a;
 }
 
@@ -38,14 +38,15 @@ body{
 
 .header{
     grid-area: header;
-    background-color:white;
+    background-color:aliceblue;
+    color: #22577a;
     text-align: center;
     
 }
 
 .nav{
     grid-area: nav;
-    background-color: #A1E2c6;
+    background-color: aliceblue;
     text-decoration: none;
     text-align: center;
     font-size: 1.1rem;
@@ -55,18 +56,19 @@ body{
 .title{
     grid-area: title;
     text-align: center;
+    color: aliceblue;
 }
 
 .aboutme{
     grid-area: aboutme;
     text-align: center;
-    background-color: white;
+    background-color: aliceblue;
 }
 
 .qualities {
     grid-area:qualities;
     text-align: center;
-    background-color: #A1E2c6;
+    color: aliceblue;
 }
 
 .photo{
@@ -82,11 +84,12 @@ body{
 .contact{
     grid-area:contact;
     text-align: center;
+    color: aliceblue;
 }
 
 .social{
     grid-area:social;
-    background-color:#A1E2c6;
+    background-color:aliceblue;
     font-size: 1.1rem;
     text-align: center;
 }
@@ -111,7 +114,6 @@ a{
     display: flex;
     flex-wrap: wrap;
     padding:0;
-    margin:0;
 }
 
 .photobox > li {
@@ -123,6 +125,7 @@ a{
     flex-grow: 10;
 }
 
+/* this is for flexbox photos so need to adapt for other images*/
 img {
     max-height: 100%;
     min-width: 100%;
