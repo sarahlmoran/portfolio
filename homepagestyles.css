@@ -9,10 +9,10 @@ body{
     font-family: 'Roboto Mono', monospace;
 }
 
-/* this is to show the scaffolding of the CSS*/
+/* this is to show the scaffolding of the CSS
 {
     border: 2px solid black;
-}
+}*/
 
 
 /* -- Layout 1 with grid -- */
@@ -42,6 +42,7 @@ body{
     grid-area: header;
     text-align: center;
     color: aliceblue;
+    font-size: medium;
 }
 
 .nav{
@@ -49,7 +50,7 @@ body{
     color: aliceblue;
     text-decoration: none;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: small;
     word-spacing: 1rem;
     padding-bottom:black;
     padding:10px;
@@ -59,18 +60,21 @@ body{
     grid-area: title;
     text-align: center;
     color: aliceblue;
+    font-size: large;
 }
 
 .aboutme{
     grid-area: aboutme;
     text-align: center;
     background-color: aliceblue;
+    font-size: medium;
 }
 
 .qualities {
     grid-area:qualities;
     text-align: center;
     background-color: aliceblue;
+    font-size: medium;
 }
 
 .photo{
@@ -83,12 +87,14 @@ body{
     text-align: center;
     color: aliceblue;
     min-height: 60vh;
+    font-size: medium;
 }
 
 .contact{
     grid-area:contact;
     text-align: center;
     background-color: aliceblue;
+    font-size: medium;
 }
 
 .social{
