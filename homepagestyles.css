@@ -173,6 +173,10 @@ fieldset{
     text-transform: uppercase;
 }
 
+#button:hover{
+    color:#38a3a5;
+}
+
 /* classes for socials icons*/
 .fa-brands{
     width:100px;
