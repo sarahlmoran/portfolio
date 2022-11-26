@@ -8,7 +8,7 @@ body{
 }
 
 /* this is to show the scaffolding of the CSS*/
-*{
+{
     border: 2px solid black;
 }
 
@@ -85,9 +85,6 @@ body{
     grid-area:contact;
     text-align: center;
     color: aliceblue;
-    display:grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6fr);
 }
 
 .social{
@@ -134,4 +131,27 @@ img {
     min-width: 100%;
     object-fit: cover;
     vertical-align: bottom;
+}
+
+/* Classes for contact grid*/
+.contactgrid {
+display:grid;
+grid-template-columns: 40% 1fr 40%;
+grid-template-rows: repeat(4fr);
+padding:0;
+margin:0;
+background-color: #22577a;
+}
+.label{
+grid-column: 2/3;
+text-align: left;
+font-size: small;
+}
+.input{
+grid-column: 2/3;
+background-color: #22577a;
+}
+
+fieldset{
+    border:0;
 }
