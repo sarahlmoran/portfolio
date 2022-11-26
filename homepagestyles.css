@@ -79,12 +79,13 @@ body{
 .project{
     grid-area: project;
     text-align: center;
+    
 }
 
 .contact{
     grid-area:contact;
     text-align: center;
-    color: aliceblue;
+    background-color: aliceblue;
 }
 
 .social{
@@ -140,18 +141,31 @@ grid-template-columns: 40% 1fr 40%;
 grid-template-rows: repeat(4fr);
 padding:0;
 margin:0;
-background-color: #22577a;
+background-color: aliceblue;
 }
 .label{
 grid-column: 2/3;
 text-align: left;
 font-size: small;
+text-transform: uppercase;
 }
 .input{
 grid-column: 2/3;
-background-color: #22577a;
+background-color: aliceblue;
+font-size: large;
 }
 
 fieldset{
     border:0;
 }
+
+button{
+    font-family: fantasy;
+    color: #22577a;
+    background-color: aliceblue;
+    font-size: medium;
+    text-transform: uppercase;
+}
+
+/* need to look at flexbox photo grid */
+/* need to add nav bar links*/
