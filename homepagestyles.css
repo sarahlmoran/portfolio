@@ -80,6 +80,9 @@ body{
 .photo{
     grid-area: photo;
     text-align: center;
+    background-color: black;
+    padding: 0;
+    border:0;
 }
 
 .project{
@@ -111,7 +114,6 @@ body{
     grid-area: footer;
     text-align: center;
     text-decoration: 0;
-    
 }
 
 /*Used to remove all underlines on links-may have to add further specificity at a later stage*/
@@ -119,16 +121,12 @@ a{
     text-decoration: none;
 }
 
-/* ID to change the word spacing for the get in touch nav button */
-#getintouch {
-    word-spacing: 0em;
-}
-
 /* Classes for photos flexbox */
 .photobox {
     display: flex;
     flex-wrap: wrap;
     padding:0;
+    border: 30px;
 }
 
 .photobox > li {
@@ -244,8 +242,9 @@ color: #38a3a5;
     margin: var(--photoMargin);
 }
 
-/* look at new font and resize text*/
 /* need to look at flexbox photo grid */
-/* need to add nav bar links*/
+/* need to add contact back in nav bar links- start again*/
 /* add photo or avatar between title and about me */
 /* need to add a break line between nav bar and title*/
+/* need to look at row sizes*/
+/* add a back to top to the bottom of the page*/
