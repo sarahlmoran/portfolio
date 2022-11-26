@@ -209,19 +209,31 @@ color: #38a3a5;
     --cardWidth: 240px;
     --cardHeight: 280px;
     --cardMargin: 16px;
+    --photoWidth:240px;
+    --photoHeight:70px;
   }
 
 .card{
     width: var(--cardWidth);
     height: var(--cardHeight);
     margin: var(--cardMargin);
-    border:1px solid #38a3a5;
     border-radius: 8px;
     background:aliceblue;
+    color: #22577a;
     box-sizing: border-box;
+    text-transform: uppercase;
 }
 
 
+
+.project-photo{
+    width:var(--photoWidth);
+    height:var(--photoHeight) ;
+    margin: var(--photoMargin);
+}
+
+/*add hover to submit button*/
+/* look at new font and resize text*/
 /* need to look at flexbox photo grid */
 /* need to add nav bar links*/
 /* add photo or avatar between title and about me */
