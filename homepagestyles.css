@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
 /*Global Resets*/
 body{
     margin:0;
     padding:0;
-    font-family: fantasy;
     background-color: #22577a;
     color:#22577a;
+    font-family: 'Roboto Mono', monospace;
 }
 
 /* this is to show the scaffolding of the CSS*/
@@ -166,7 +168,7 @@ fieldset{
 }
 
 #button{
-    font-family: fantasy;
+    font-family: 'Roboto Mono', monospace;
     color: #22577a;
     background-color: aliceblue;
     font-size: medium;
@@ -236,7 +238,6 @@ color: #38a3a5;
     margin: var(--photoMargin);
 }
 
-/*add hover to submit button*/
 /* look at new font and resize text*/
 /* need to look at flexbox photo grid */
 /* need to add nav bar links*/
