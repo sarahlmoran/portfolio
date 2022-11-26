@@ -93,6 +93,8 @@ body{
     background-color:aliceblue;
     font-size: 1.1rem;
     text-align: center;
+    padding:15px;
+
 }
 
 .footer{
@@ -100,7 +102,7 @@ body{
     text-align: center;
 }
 
-/*Used to remove all undelines on links-may have to add further specificity at a later stage*/
+/*Used to remove all underlines on links-may have to add further specificity at a later stage*/
 a{
     text-decoration: none;
 }
@@ -159,7 +161,7 @@ fieldset{
     border:0;
 }
 
-button{
+#button{
     font-family: fantasy;
     color: #22577a;
     background-color: aliceblue;
@@ -167,5 +169,11 @@ button{
     text-transform: uppercase;
 }
 
+/* classes for icons*/
+.fa-brands{
+    width:100px;
+}
+
 /* need to look at flexbox photo grid */
 /* need to add nav bar links*/
+/*need to try to align submit button in contact div*/
