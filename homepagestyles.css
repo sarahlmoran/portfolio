@@ -18,7 +18,7 @@ body{
 /* -- Layout 1 with grid -- */
 /* grid container */
 .layout--1{
-    padding: 0px;
+    padding: 0;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(10,fr);
@@ -53,8 +53,6 @@ body{
     text-align: center;
     font-size: small;
     word-spacing: 1rem;
-    padding-bottom:black;
-    padding:10px;
 }
 
 .title{
@@ -113,7 +111,7 @@ body{
     background-color:aliceblue;
     font-size: 1.1rem;
     text-align: center;
-    padding:15px;
+    padding:1rem;
 }
 
 .footer{
@@ -196,7 +194,7 @@ i:hover{
 
 /* classes for socials icons*/
 .fa-brands{
-    width:100px;
+    width:7vw;
 }
 
 .fa-brands:visited{
@@ -234,8 +232,8 @@ color: #38a3a5;
     --cardWidth: 240px;
     --cardHeight: 280px;
     --cardMargin: 16px;
-    --photoWidth:240px;
-    --photoHeight:70px;  
+    --photoWidth: 240px;
+    --photoHeight: 70px;  
   }
 
 .card{
@@ -252,12 +250,12 @@ color: #38a3a5;
 
 .project-photo{
     width:var(--photoWidth);
-    height:var(--photoHeight) ;
+    height:var(--photoHeight);
     margin: var(--photoMargin);
 }
 
 
-/* Test section - trying to get one image in the center*/
+/* Avatar section */
 .avatar-section{
    display:flex;
    justify-content: flex-start;
