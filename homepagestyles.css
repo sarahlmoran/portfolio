@@ -190,6 +190,10 @@ fieldset{
     color:#38a3a5;
 }
 
+i:hover{
+    color: #38a3a5;
+}
+
 /* classes for socials icons*/
 .fa-brands{
     width:100px;
@@ -267,6 +271,4 @@ color: #38a3a5;
     margin: var(--cardMargin);
 }
 
-/* need to look at flexbox photo grid */
-/* add photo or avatar between title and about me */
 /* need to look at row sizes*/
