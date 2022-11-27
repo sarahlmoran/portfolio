@@ -26,7 +26,7 @@ body{
     "header"
     "nav"
     "title"
-    "test"
+    "avatar"
     "aboutme"
     "qualities"
     "photo"
@@ -64,8 +64,8 @@ body{
     font-size: large;
 }
 
-.test{
-    grid-area: test;
+.avatar{
+    grid-area: avatar;
     text-align: center;
     color: aliceblue;
     font-size: large;
@@ -255,14 +255,14 @@ color: #38a3a5;
 
 
 /* Test section - trying to get one image in the center*/
-.test-section{
+.avatar-section{
    display:flex;
    justify-content: flex-start;
    flex-wrap: wrap;
    justify-content: center;
 }
 
-.testcard{
+.avatarcard{
     width: var(--cardWidth);
     height: var(--cardHeight);
     margin: var(--cardMargin);
