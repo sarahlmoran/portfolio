@@ -197,6 +197,10 @@ color: #38a3a5;
 }
 
 /* classes for nav links*/
+
+.navlink{
+    color:aliceblue;
+}
 .navlink:visited{
     color:aliceblue;
 }
@@ -243,7 +247,6 @@ color: #38a3a5;
 }
 
 /* need to look at flexbox photo grid */
-/* need to add contact back in nav bar links- start again*/
 /* add photo or avatar between title and about me */
 /* need to add a break line between nav bar and title*/
 /* need to look at row sizes*/
