@@ -269,8 +269,27 @@ color: #38a3a5;
     margin: var(--cardMargin);
 }
 
+@media screen and (min-width:768px){
+    .layout--1{
+        width:fit-content;
+    }
+}
+
 /* work on scaling!*/
 
 /*TO LOOK AT OVER XMAS*/
-/* need to look at row sizes*/
-/* adding a mail to option as part of contact me*/
+/* CSS need to look at row sizes*/
+/* CSS look at adding some positioning to the layout e.g. header stays whilst scrolling throughout the page (15. on CCS track)*/
+/* html adding a mail to option as part of contact me*/
+/* html look at adding fig captions to photo flex box or new photos with fig captions (10. on html track)*/
+/* html look at adding a table, maybe of skills? then applying CSS styling to it (11. on html track)*/
+/* html adding another form type e.g. with radio buttons - could say my favourite food is italian, what's yours and give options (12. on html track)*/
+/* html look at adding an iframe of something e.g. twitter feed or google maps location- have a look at other webpages for what looks good (13. on html track)*/
+/* CSS look at adding some combinator elements to further understand parent child relationships in some of the divs (05. on CSS track)*/
+/* CSS look at adding a check box to something (06. on CSS track)*/
+/* CSS look at adding a pseudo element selector to something a first line maybe?(07. on CSS track)*/
+/* CSS look at adding a bit more colour with other parts of the colour palette and using opacity (10. on CSS track)*/
+/* CSS look at adding a different font family for heading and text blocks (11. on CSS track)*/
+/* CSS look at adding a minmax for minimums want some grids to shrink (17. on CSS track)*/
+/* CSS add media queries (18. on CSS track)*/
+/*CSS add animation (bookmark CSS animation)*/
