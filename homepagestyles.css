@@ -10,9 +10,9 @@ body{
 }
 
 /* this is to show the scaffolding of the CSS
-{
+*{
     border: 2px solid black;
-}*/
+} */
 
 
 /* -- Layout 1 with grid -- */
@@ -21,11 +21,12 @@ body{
     padding: 0px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(9,fr);
+    grid-template-rows: repeat(10,fr);
     grid-template-areas:
     "header"
     "nav"
     "title"
+    "test"
     "aboutme"
     "qualities"
     "photo"
@@ -58,6 +59,13 @@ body{
 
 .title{
     grid-area: title;
+    text-align: center;
+    color: aliceblue;
+    font-size: large;
+}
+
+.test{
+    grid-area: test;
     text-align: center;
     color: aliceblue;
     font-size: large;
@@ -106,8 +114,6 @@ body{
     font-size: 1.1rem;
     text-align: center;
     padding:15px;
-
-
 }
 
 .footer{
@@ -121,7 +127,7 @@ a{
     text-decoration: none;
 }
 
-/* Classes for photos flexbox */
+/* Classes for photos flexbox*/
 .photobox {
     display: flex;
     flex-wrap: wrap;
@@ -138,13 +144,15 @@ a{
     flex-grow: 10;
 }
 
-/* this is for flexbox photos so need to adapt for other images*/
+/* this is for flexbox photos so need to adapt for other images */
 img {
     max-height: 100%;
     min-width: 100%;
     object-fit: cover;
     vertical-align: bottom;
-}
+} 
+
+
 
 /* Classes for contact grid*/
 .contactgrid {
@@ -224,7 +232,7 @@ color: #38a3a5;
     --cardHeight: 280px;
     --cardMargin: 16px;
     --photoWidth:240px;
-    --photoHeight:70px;
+    --photoHeight:70px;  
   }
 
 .card{
@@ -239,15 +247,27 @@ color: #38a3a5;
 }
 
 
-
 .project-photo{
     width:var(--photoWidth);
     height:var(--photoHeight) ;
     margin: var(--photoMargin);
 }
 
+
+/* Test section - trying to get one image in the center*/
+.test-section{
+   display:flex;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.testcard{
+    width: var(--cardWidth);
+    height: var(--cardHeight);
+    margin: var(--cardMargin);
+}
+
 /* need to look at flexbox photo grid */
 /* add photo or avatar between title and about me */
-/* need to add a break line between nav bar and title*/
 /* need to look at row sizes*/
-/* add a back to top to the bottom of the page*/
